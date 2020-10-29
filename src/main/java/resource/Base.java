@@ -11,7 +11,7 @@ public class Base {
 	static String url = "https://www.facebook.com/";  
 	static String browser = "firefox";
 	
-	//@Test 
+	@Test 
 	public static void run() {
 		if(browser.equals("chrome")) {
 			openChromeBrowser();
