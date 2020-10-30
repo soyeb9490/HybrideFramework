@@ -27,10 +27,11 @@ public class Base {
 	}
 	
 	
-	public static void openChromeBrowser(){
+	public static WebDriver openChromeBrowser(){
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Browser/chromedriver");
 		
 		driver = new ChromeDriver();
+		return driver;
 	}
 
 	

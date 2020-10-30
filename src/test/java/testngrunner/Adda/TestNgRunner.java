@@ -5,9 +5,11 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
 		features="Features",
-		glue="stepDefinition.Adda"
+		glue="stepDefinition.Adda",
+		monochrome = true,
+		tags= {"@SmokeTest,@FunctioanTest1,@FunctioanTest2"}
 )
 
-public class TestNgRunner extends AbstractTestNGCucumberTests{	
+public class TestNGRunner extends AbstractTestNGCucumberTests{	
 	
 }

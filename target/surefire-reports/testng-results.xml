@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-29T07:20:59Z" name="Suite" finished-at="2020-10-29T07:21:06Z" duration-ms="7347">
+  <suite started-at="2020-10-30T23:34:11Z" name="Suite" finished-at="2020-10-30T23:34:27Z" duration-ms="15198">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testngrunner.Adda.TestNgRunner@51f116b8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testngrunner.Adda.TestNGRunner@51f116b8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-10-29T07:20:59Z" name="Test" finished-at="2020-10-29T07:21:06Z" duration-ms="7347">
-      <class name="testngrunner.Adda.TestNgRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testngrunner.Adda.TestNgRunner@51f116b8]" started-at="2020-10-29T07:20:59Z" name="setUpClass" finished-at="2020-10-29T07:20:59Z" duration-ms="452" status="PASS">
+    <test started-at="2020-10-30T23:34:11Z" name="Test" finished-at="2020-10-30T23:34:27Z" duration-ms="15198">
+      <class name="testngrunner.Adda.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testngrunner.Adda.TestNGRunner@51f116b8]" started-at="2020-10-30T23:34:11Z" name="setUpClass" finished-at="2020-10-30T23:34:12Z" duration-ms="464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testngrunner.Adda.TestNgRunner@51f116b8]" started-at="2020-10-29T07:21:00Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-29T07:21:06Z" duration-ms="6646" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testngrunner.Adda.TestNGRunner@51f116b8]" started-at="2020-10-30T23:34:12Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-30T23:34:24Z" duration-ms="12225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testngrunner.Adda.TestNGRunner@51f116b8]" started-at="2020-10-30T23:34:24Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-30T23:34:27Z" duration-ms="2252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,11 +36,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testngrunner.Adda.TestNgRunner@51f116b8]" started-at="2020-10-29T07:21:06Z" name="tearDownClass" finished-at="2020-10-29T07:21:06Z" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testngrunner.Adda.TestNGRunner@51f116b8]" started-at="2020-10-30T23:34:27Z" name="tearDownClass" finished-at="2020-10-30T23:34:27Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- testngrunner.Adda.TestNgRunner -->
+      </class> <!-- testngrunner.Adda.TestNGRunner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
