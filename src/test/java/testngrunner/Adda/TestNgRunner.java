@@ -10,6 +10,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		tags= {"@SmokeTest,@FunctioanTest1,@FunctioanTest2"}
 )
 
-public class TestNGRunner extends AbstractTestNGCucumberTests{	
+public class TestNgRunner extends AbstractTestNGCucumberTests{	
 	
 }
